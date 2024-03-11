@@ -1,8 +1,10 @@
 import java.util.List;
 
 public class Farm {
-    List<Animal> animals;
-    List<Flower>flowers;
+
+   private List<Animal> animals;
+   private List<Flower> flowers;
+   private int pozemek = 100;
 
 public void zasadit(){}
 public void zavlazovat (){}
