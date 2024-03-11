@@ -22,4 +22,36 @@ public abstract class Flower {
         this.neededArea = neededArea;
         this.chanceOfGrowth = chanceOfGrowth;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getNeededArea() {
+        return neededArea;
+    }
+
+    public void setNeededArea(String neededArea) {
+        this.neededArea = neededArea;
+    }
+
+    public double getChanceOfGrowth() {
+        return chanceOfGrowth;
+    }
+
+    public void setChanceOfGrowth(double chanceOfGrowth) {
+        this.chanceOfGrowth = chanceOfGrowth;
+    }
 }
