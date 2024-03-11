@@ -2,7 +2,8 @@ public abstract class Flower {
 
     protected String name;
     protected double price;
-    protected double neededArea;
+    protected String neededArea;
+
     protected double chanceOfGrowth;
 
     @Override
